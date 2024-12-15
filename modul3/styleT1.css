@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+.container {
+    font-family: 'Times New Roman';
+}
+
+.form-pemesanan {
+    background-color: rgb(113, 127, 135);
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: auto;
+}
+
+input, select {
+    border: none;
+    border-radius: 5px;
+}
+
+.input-full {
+    width: 362px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-simpan {
+    background-color: rgb(0, 28, 139);
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn-cancel {
+    background-color: orange;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}

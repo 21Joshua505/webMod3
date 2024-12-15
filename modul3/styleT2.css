@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+.form-fasilitas {
+    background-color: rgb(104, 115, 122);
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.form-table {
+    margin: auto;
+}
+
+input, select {
+    border: none;
+    border-radius: 5px;
+}
+
+.input-full {
+    width: 362px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-simpan {
+    background-color: rgb(8, 255, 49);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+.btn-cancel {
+    background-color: rgb(232, 17, 17);
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
